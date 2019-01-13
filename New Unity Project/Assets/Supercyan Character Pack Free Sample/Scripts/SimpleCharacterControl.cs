@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using System.Collections.Generic;
 
 public class SimpleCharacterControl : MonoBehaviour {
@@ -8,6 +9,10 @@ public class SimpleCharacterControl : MonoBehaviour {
         Tank,
         Direct
     }
+
+    private bool canJump = false;
+
+    public GameObject spawnPoint;
 
     [SerializeField] private float m_moveSpeed = 2;
     [SerializeField] private float m_turnSpeed = 200;
@@ -87,7 +92,12 @@ public class SimpleCharacterControl : MonoBehaviour {
         if (m_collisions.Count == 0) { m_isGrounded = false; }
     }
 
-	void Update () {
+//    private void Start()
+//    {
+//        StartCoroutine(TurnAround());
+//    }
+
+    void Update () {
         m_animator.SetBool("Grounded", m_isGrounded);
 
         switch(m_controlMode)
@@ -106,6 +116,11 @@ public class SimpleCharacterControl : MonoBehaviour {
         }
 
         m_wasGrounded = m_isGrounded;
+
+        if (Input.GetKey(KeyCode.G))
+        {
+            Spawn();
+        }
     }
 
     private void TankUpdate()
@@ -171,22 +186,52 @@ public class SimpleCharacterControl : MonoBehaviour {
 
     private void JumpingAndLanding()
     {
-        bool jumpCooldownOver = (Time.time - m_jumpTimeStamp) >= m_minJumpInterval;
-
-        if (jumpCooldownOver && m_isGrounded && Input.GetKey(KeyCode.Space))
+        if (canJump == true)
         {
-            m_jumpTimeStamp = Time.time;
-            m_rigidBody.AddForce(Vector3.up * m_jumpForce, ForceMode.Impulse);
-        }
+            bool jumpCooldownOver = (Time.time - m_jumpTimeStamp) >= m_minJumpInterval;
 
-        if (!m_wasGrounded && m_isGrounded)
-        {
-            m_animator.SetTrigger("Land");
-        }
+            if (jumpCooldownOver && m_isGrounded && Input.GetKey(KeyCode.Space))
+            {
+                m_jumpTimeStamp = Time.time;
+                m_rigidBody.AddForce(Vector3.up * m_jumpForce, ForceMode.Impulse);
+            }
 
-        if (!m_isGrounded && m_wasGrounded)
-        {
-            m_animator.SetTrigger("Jump");
+            if (!m_wasGrounded && m_isGrounded)
+            {
+                m_animator.SetTrigger("Land");
+            }
+
+            if (!m_isGrounded && m_wasGrounded)
+            {
+                m_animator.SetTrigger("Jump");
+            }
         }
     }
+    
+    IEnumerator TurnAround()
+    {
+        yield return new WaitForSeconds(3f);
+        
+        gameObject.transform.RotateAround (transform.position, transform.up, 180f);
+    }
+    
+    private void RotateMove(int dir)
+    {
+        gameObject.transform.Rotate(Vector3.up);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("jump sphere"))
+        {
+            other.gameObject.SetActive(false);
+            canJump = true;
+        }
+    }
+
+    public void Spawn()
+    {
+        transform.position = spawnPoint.transform.position;
+    }
+
 }
