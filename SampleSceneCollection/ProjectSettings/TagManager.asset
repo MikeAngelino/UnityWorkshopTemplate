@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - jump sphere
+  - DeathBox
   layers:
   - Default
   - TransparentFX

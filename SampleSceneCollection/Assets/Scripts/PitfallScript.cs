@@ -10,8 +10,6 @@ public class PitfallScript : MonoBehaviour
     public GameObject jumpSpheres;
 
     public SimpleCharacterControl player;
-
-    private bool alreadyDied = false;
     
     // Start is called before the first frame update
     void Start()
@@ -27,17 +25,10 @@ public class PitfallScript : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
-        if (alreadyDied)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-            jumpSpheres.SetActive(true);
-        }
-        
         if (other.gameObject.CompareTag("Player"))
         {
             player.Spawn();
             jumpSpheres.SetActive(true);
-            alreadyDied = true;
         }
 
         
