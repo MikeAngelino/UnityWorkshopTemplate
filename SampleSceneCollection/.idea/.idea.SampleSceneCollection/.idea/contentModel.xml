@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Kevin Losada\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Kevin Losada\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_SampleSceneCollection.1433629111.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Kevin Losada\Repositories\UnityProjects\Unity3DProjects\SampleSceneCollection" t="IncludeRecursive">
+    <e p="C:\Users\kevin\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\kevin\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_SampleSceneCollection.-1591589733.00" t="ExcludeRecursive" />
+    <e p="C:\Users\kevin\Documents\Repository\Unity\Unity3DProjects\SampleSceneCollection" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Imported Assets" t="Include">

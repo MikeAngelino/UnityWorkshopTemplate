@@ -229,7 +229,8 @@ public class SimpleCharacterControl : MonoBehaviour {
     {
         gameObject.transform.Rotate(Vector3.up);
     }
-
+    
+    //jump sphere collision function
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("jump sphere"))
