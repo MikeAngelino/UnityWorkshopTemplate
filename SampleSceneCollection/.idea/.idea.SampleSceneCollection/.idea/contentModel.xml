@@ -6,10 +6,14 @@
     <e p="C:\Users\kevin\Documents\Repository\Unity\Unity3DProjects\SampleSceneCollection" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="_Toon Character Pack.txt" t="Include" />
         <e p="Imported Assets" t="Include">
           <e p="Meshtint Free Knight" t="Include">
             <e p="Read me.txt" t="Include" />
             <e p="www.meshtint.com.txt" t="Include" />
+          </e>
+          <e p="Player" t="Include">
+            <e p="SimpleCharacterControl.cs" t="Include" />
           </e>
           <e p="Supercyan Character Pack Free Sample" t="Include">
             <e p="Scripts" t="Include">
@@ -20,8 +24,6 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="floatScript.cs" t="Include" />
-          <e p="PitfallScript.cs" t="Include" />
-          <e p="SimpleCharacterControl.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

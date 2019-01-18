@@ -6,6 +6,7 @@ TagManager:
   tags:
   - jump sphere
   - DeathBox
+  - pitfall
   layers:
   - Default
   - TransparentFX
