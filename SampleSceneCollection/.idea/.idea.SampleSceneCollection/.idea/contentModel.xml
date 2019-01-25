@@ -23,7 +23,11 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Fireball.cs" t="Include" />
           <e p="floatScript.cs" t="Include" />
+          <e p="Ghost.cs" t="Include" />
+          <e p="Knight.cs" t="Include" />
+          <e p="Player.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

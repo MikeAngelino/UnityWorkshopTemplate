@@ -7,6 +7,8 @@ TagManager:
   - jump sphere
   - DeathBox
   - pitfall
+  - powrup
+  - enemy
   layers:
   - Default
   - TransparentFX

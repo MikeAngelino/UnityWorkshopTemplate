@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8361757-9309-44f6-a37e-b82b213731aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Supercyan Character Pack Free Sample/AnimatorControllers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SampleSceneCollection/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SampleSceneCollection/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SampleSceneCollection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SampleSceneCollection/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/JumpScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/JumpScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SceneTwo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneTwo.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/floatScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/floatScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,17 +17,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/floatScript.cs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Ghost.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+            <state relative-caret-position="352">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
               <folding>
-                <marker date="1547488038178" expanded="true" signature="0:94" ph="/* Floater v0.0.2 ... */" />
-                <marker date="1547488038178" expanded="false" signature="103:141" ph="..." />
-                <marker date="1547488038178" expanded="true" signature="241:1052" ph="{...}" />
-                <marker date="1547488038178" expanded="true" signature="542:653" ph="{...}" />
-                <marker date="1547488038178" expanded="true" signature="718:1050" ph="{...}" />
+                <marker date="1548391432437" expanded="false" signature="6:78" ph="..." />
+                <marker date="1548391432437" expanded="true" signature="114:403" ph="{...}" />
+                <marker date="1548391432437" expanded="true" signature="186:207" ph="{...}" />
+                <marker date="1548391432437" expanded="true" signature="265:286" ph="{...}" />
+                <marker date="1548391432437" expanded="true" signature="310:331" ph="{...}" />
+                <marker date="1548391432437" expanded="true" signature="380:401" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Knight.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+              <folding>
+                <marker date="1548391487947" expanded="false" signature="6:78" ph="..." />
+                <marker date="1548391487947" expanded="true" signature="115:549" ph="{...}" />
+                <marker date="1548391487947" expanded="true" signature="187:208" ph="{...}" />
+                <marker date="1548391487947" expanded="true" signature="266:287" ph="{...}" />
+                <marker date="1548391487947" expanded="true" signature="319:340" ph="{...}" />
+                <marker date="1548391487947" expanded="true" signature="366:387" ph="{...}" />
+                <marker date="1548391487947" expanded="true" signature="413:434" ph="{...}" />
+                <marker date="1548391487947" expanded="true" signature="483:547" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+              <folding>
+                <marker date="1548391608927" expanded="false" signature="6:121" ph="..." />
+                <marker date="1548391608927" expanded="true" signature="158:438" ph="{...}" />
+                <marker date="1548391608927" expanded="true" signature="177:189" ph="{...}" />
+                <marker date="1548391608927" expanded="true" signature="213:226" ph="{...}" />
+                <marker date="1548391608927" expanded="true" signature="289:310" ph="{...}" />
+                <marker date="1548391608927" expanded="true" signature="339:360" ph="{...}" />
+                <marker date="1548391608927" expanded="true" signature="409:430" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Fireball.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+              <folding>
+                <marker date="1548391558067" expanded="false" signature="6:78" ph="..." />
+                <marker date="1548391558067" expanded="true" signature="117:388" ph="{...}" />
+                <marker date="1548391558067" expanded="true" signature="216:237" ph="{...}" />
+                <marker date="1548391558067" expanded="true" signature="295:316" ph="{...}" />
+                <marker date="1548391558067" expanded="true" signature="365:386" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -34,23 +93,33 @@
     <findStrings>
       <find>fa</find>
       <find>directupdate</find>
+      <find>spawn</find>
+      <find>f</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Knight.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fireball.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/floatScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ghost.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/PitfallScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/floatScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/rotationLessFloatScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ghostController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SimpleCharacterControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/floatScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Imported Assets/Player/SimpleCharacterControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ghost.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Knight.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fireball.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       </list>
     </option>
   </component>
@@ -67,19 +136,10 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="UnityExplorer" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="UnityExplorer">
-        <option name="show-hidden-items" value="false" />
-      </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
@@ -128,13 +188,12 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24939272" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Captures" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Build" weight="0.3285968" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -151,6 +210,39 @@
       <window_info anchor="bottom" id="Unit Tests" order="13" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="bottom" id="Android Profiler" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="16" weight="0.3285968" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" />
+      <window_info anchor="right" id="Errors In Solution" order="5" weight="0.32955465" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Captures" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Unity" order="11" />
+      <window_info anchor="bottom" id="Logcat" order="12" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Android Profiler" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="16" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -158,7 +250,7 @@
       <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" />
       <window_info anchor="right" id="Errors In Solution" order="5" />
       <window_info anchor="right" id="Unit Tests Coverage" order="6" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
@@ -178,37 +270,95 @@
     <entry file="file://$PROJECT_DIR$/Assets/_Toon Character Pack.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SimpleCharacterControl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="203" column="33" selection-start-line="203" selection-start-column="33" selection-end-line="203" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PitfallScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Imported Assets/Player/SimpleCharacterControl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1696">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SimpleCharacterControl.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PitfallScript.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/floatScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        <state relative-caret-position="458">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
           <folding>
-            <marker date="1547488038178" expanded="true" signature="0:94" ph="/* Floater v0.0.2 ... */" />
-            <marker date="1547488038178" expanded="false" signature="103:141" ph="..." />
-            <marker date="1547488038178" expanded="true" signature="241:1052" ph="{...}" />
-            <marker date="1547488038178" expanded="true" signature="542:653" ph="{...}" />
-            <marker date="1547488038178" expanded="true" signature="718:1050" ph="{...}" />
+            <marker date="1548013703538" expanded="true" signature="0:94" ph="/* Floater v0.0.2 ... */" />
+            <marker date="1548013703538" expanded="false" signature="103:141" ph="..." />
+            <marker date="1548013703538" expanded="true" signature="241:1127" ph="{...}" />
+            <marker date="1548013703538" expanded="true" signature="589:711" ph="{...}" />
+            <marker date="1548013703538" expanded="true" signature="776:1125" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Imported Assets/Player/SimpleCharacterControl.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/ToExport/Player.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ToExport/Fireball.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Knight.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <folding>
+            <marker date="1548391487947" expanded="false" signature="6:78" ph="..." />
+            <marker date="1548391487947" expanded="true" signature="115:549" ph="{...}" />
+            <marker date="1548391487947" expanded="true" signature="187:208" ph="{...}" />
+            <marker date="1548391487947" expanded="true" signature="266:287" ph="{...}" />
+            <marker date="1548391487947" expanded="true" signature="319:340" ph="{...}" />
+            <marker date="1548391487947" expanded="true" signature="366:387" ph="{...}" />
+            <marker date="1548391487947" expanded="true" signature="413:434" ph="{...}" />
+            <marker date="1548391487947" expanded="true" signature="483:547" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Ghost.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding>
+            <marker date="1548391432437" expanded="false" signature="6:78" ph="..." />
+            <marker date="1548391432437" expanded="true" signature="114:403" ph="{...}" />
+            <marker date="1548391432437" expanded="true" signature="186:207" ph="{...}" />
+            <marker date="1548391432437" expanded="true" signature="265:286" ph="{...}" />
+            <marker date="1548391432437" expanded="true" signature="310:331" ph="{...}" />
+            <marker date="1548391432437" expanded="true" signature="380:401" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <folding>
+            <marker date="1548391608927" expanded="false" signature="6:121" ph="..." />
+            <marker date="1548391608927" expanded="true" signature="158:438" ph="{...}" />
+            <marker date="1548391608927" expanded="true" signature="177:189" ph="{...}" />
+            <marker date="1548391608927" expanded="true" signature="213:226" ph="{...}" />
+            <marker date="1548391608927" expanded="true" signature="289:310" ph="{...}" />
+            <marker date="1548391608927" expanded="true" signature="339:360" ph="{...}" />
+            <marker date="1548391608927" expanded="true" signature="409:430" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Fireball.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding>
+            <marker date="1548391558067" expanded="false" signature="6:78" ph="..." />
+            <marker date="1548391558067" expanded="true" signature="117:388" ph="{...}" />
+            <marker date="1548391558067" expanded="true" signature="216:237" ph="{...}" />
+            <marker date="1548391558067" expanded="true" signature="295:316" ph="{...}" />
+            <marker date="1548391558067" expanded="true" signature="365:386" ph="{...}" />
           </folding>
         </state>
       </provider>
